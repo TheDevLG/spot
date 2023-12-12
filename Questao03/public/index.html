@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempo Restante</title>
+</head>
+<body>
+
+    <h1>Selecione o formato de Tempo</h1>
+    <form action="/tempo-restante">
+
+        <label for="segundos">Total de Segundos</label>
+        <input type="radio" id="segundos" name="formato" value="segundos">
+        <br>
+        <label for="horas">Horas, Minutos e Segundos</label>
+        <input type="radio" id="horas" name="formato" value="horas">
+        <br>
+        
+        <button type="submit">Obter Tempo Restante para o Término do Dia</button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Instante</title>
+</head>
+<body>
+    <h3 style="font-weight: bold;"> Selecione Formato de Exibição de instante Atual</h3>
+
+    <form action="/info-instante-atual">
+
+        <input type="radio" id="data" name="formato" value="data">
+        <label for="data">Data</label>
+        <br>
+        <input type="radio" id="dia-da-semana" name="formato" value="dia-da-semana">
+        <label for="dia-da-semana">Dia da Semana</label>
+        <br>
+        <input type="radio" id="data-hora" name="formato" value="data-hora">
+        <label for="data-hora">Data, Horas, Minutos e Segundos</label>
+        <br>
+        <input type="radio" id="horas" name="formato" value="horas">
+        <label for="horas">Horas, Minutos e Segundos</label>
+        <br>
+        <button type="submit">Obter Instante de Tempo Atual</button>
+    </form>
+</body>
+</html>
